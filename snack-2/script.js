@@ -9,7 +9,7 @@
 
 // Quando l'utente trova il numero, fateglielo sapere!
 
-let randomNumber = Math.floor(Math.random() * 3) + 1;
+let randomNumber = Math.floor(Math.random() * 100) + 1;
 
 console.log(randomNumber)
 
@@ -48,4 +48,4 @@ do {
 
 
 
-} while (randUser == false);
+} while (randUser !== true);
